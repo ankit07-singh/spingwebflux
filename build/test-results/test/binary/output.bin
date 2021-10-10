@@ -1,6 +1,5 @@
-W20:38:28.433 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
-Ankit
-n20:38:29.147 [Test worker] INFO reactor.Mono.Supplier.1 - | onSubscribe([Fuseable] Operators.MonoSubscriber)
-P20:38:29.170 [Test worker] INFO reactor.Mono.Supplier.1 - | request(unbounded)
-K20:38:29.172 [Test worker] INFO reactor.Mono.Supplier.1 - | onNext(Ankit)
-J20:38:29.174 [Test worker] INFO reactor.Mono.Supplier.1 - | onComplete()
+W18:07:53.866 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+~18:07:54.894 [Test worker] INFO reactor.Flux.MapFuseable.1 - | onSubscribe([Fuseable] FluxMapFuseable.MapFuseableSubscriber)
+S18:07:55.006 [Test worker] INFO reactor.Flux.MapFuseable.1 - | request(unbounded)
+J18:07:55.008 [Test worker] INFO reactor.Flux.MapFuseable.1 - | onNext(5)
+I18:07:55.057 [Test worker] INFO reactor.Flux.MapFuseable.1 - | cancel()
