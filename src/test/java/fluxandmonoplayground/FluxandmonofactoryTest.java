@@ -15,9 +15,7 @@ public class FluxandmonofactoryTest {
 
     @Test
     public void fluxWithIterable(){
-
         Flux<String> namesFlux = Flux.fromIterable(list);
-
         StepVerifier.create(namesFlux)
                 .expectNext("Ankit","piyush","aman","Ravi")
                 .verifyComplete();
@@ -26,7 +24,6 @@ public class FluxandmonofactoryTest {
     @Test
     public void fluxUsingFromArray(){
         String[] array = new String[]{"Ankit","piyush","aman","Ravi"};
-
         Flux<String> flux = Flux.fromArray(array);
         StepVerifier.create(flux)
                 .expectNext("Ankit","piyush","aman","Ravi")
